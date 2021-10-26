@@ -7,16 +7,14 @@
             <img class="h-10 w-auto" src="https://tailwindui.com/img/logos/workflow-mark.svg?color=white" alt="">
           </a>
           <div class="hidden ml-10 space-x-8 lg:block">
-            <a key="spacex" href="#" class="text-base font-medium text-white hover:text-indigo-50">
-              SpaceX Launcher
-            </a>
+            <router-link :to="{ name: 'Home' }" class="text-base font-medium text-white hover:text-indigo-50">
+              Home
+            </router-link>
+            <router-link :to="{ name: 'Launches' }" class="text-base font-medium text-white hover:text-indigo-50">
+              Recent Launches
+            </router-link>
           </div>
         </div>
-      </div>
-      <div class="py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
-        <a key="spacex" href="#" class="text-base font-medium text-white hover:text-indigo-50">
-          SpaceX Launcher
-        </a>
       </div>
     </nav>
   </header>

@@ -28,15 +28,6 @@ module.exports = {
         light_blue: '#EAECF7',
         light: '#F5F5F5',
         orange: '#FFBF51',
-        // Gray icon
-        gray_icon: '#BFBFBF',
-        // Folder colors
-        red_color: '#FF5151',
-        light_blue_color: '#5197FF',
-        dark_blue_color: '#5F69CB',
-        violet_color: '#C051FF',
-        // Border color
-        border_color: '#BFBFBF',
       },
     },
   },
