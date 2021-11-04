@@ -47,6 +47,18 @@ Screenshot of the Launch Page which lists all the missions by SpaceX.
 
 ![alt text](./screenshots/launch_page.png)
 
+Screenshot of the Ships Page which lists all the ships used by SpaceX.
+
+![alt text](./screenshots/ships.png)
+
+Screenshot of the Dragons Page
+
+![alt text](./screenshots/dragons.png)
+
+Screenshot of the Capsules Page which lists all the capsules used by SpaceX.
+
+![alt text](./screenshots/capsules.png)
+
 ## To Do
 
 - Filtering based on dates of mission launched, filter by last month, year.
