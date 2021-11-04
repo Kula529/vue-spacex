@@ -21,7 +21,7 @@
             {{ props.row.details ? props.row.details : 'Not available' }}
           </td>
           <td :class="props.tdClass">
-            {{ props.row.original_launch }}
+            {{ props.row.original_launch | filterLaunchDate }}
           </td>
         </tr>
       </template>
@@ -31,12 +31,18 @@
 
 <script>
 import axios from 'axios';
+import dayjs from 'dayjs';
 import LoadingComponent from '../components/common/Loader.vue';
 
 export default {
   name: 'CapsulePage',
   components: {
     LoadingComponent,
+  },
+  filters: {
+    filterLaunchDate(value) {
+      return dayjs(value).format('DD/MM/YYYY');
+    },
   },
   data() {
     return {
