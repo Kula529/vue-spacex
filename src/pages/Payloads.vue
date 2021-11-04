@@ -4,8 +4,7 @@
     <h3 class="text-blue-500 text-2xl text-center my-3 font-semibold">
       Payloads
     </h3>
-    {{ payloads }}
-    <!-- <t-table v-if="payloads.length"
+    <t-table v-if="payloads.length"
              :headers="tableHeaders"
              :data="payloads"
              class="bg-white shadow-md"
@@ -13,20 +12,26 @@
       <template slot="row" slot-scope="props">
         <tr :class="[props.trClass]">
           <td :class="props.tdClass">
-            {{ props.row.mission_name }}
-          </td>
-          <td :class="props.tdClass">
-            {{ props.row.mission_id }}
+            {{ props.row.payload_id }}
           </td>
           <td :class="props.tdClass" class="cursor-pointer text-blue-500 font-semibold">
-            {{ props.row.wikipedia }}
+            {{ props.row.nationality }}
           </td>
           <td :class="props.tdClass">
-            {{ props.row.manufacturers.toString().split(',') }}
+            {{ props.row.manufacturer }}
+          </td>
+          <td :class="props.tdClass">
+            {{ props.row.payload_type }}
+          </td>
+          <td :class="props.tdClass">
+            {{ props.row.orbit }}
+          </td>
+          <td :class="props.tdClass">
+            {{ props.row.payload_mass_kg }}
           </td>
         </tr>
       </template>
-    </t-table> -->
+    </t-table>
   </div>
 </template>
 
@@ -43,7 +48,7 @@ export default {
     return {
       payloads: [],
       isLoading: false,
-      tableHeaders: ['Mission Name', 'Mission ID', 'Wikipedia', 'Manufacturers'],
+      tableHeaders: ['Payload ID', 'Nationality', 'Manufacturer', 'Payload Type', 'Orbit', 'Payload Mass (KG)'],
     };
   },
   mounted() {

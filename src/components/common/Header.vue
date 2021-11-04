@@ -22,9 +22,6 @@
             <router-link :to="{ name: 'Payloads' }" class="text-base font-medium text-white hover:text-indigo-50">
               Payloads
             </router-link>
-            <router-link :to="{ name: 'Rockets' }" class="text-base font-medium text-white hover:text-indigo-50">
-              Rockets
-            </router-link>
             <router-link :to="{ name: 'Capsules' }" class="text-base font-medium text-white hover:text-indigo-50">
               Capsules
             </router-link>

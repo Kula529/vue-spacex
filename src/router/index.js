@@ -15,11 +15,6 @@ const routes = [
     component: () => import('../pages/Launches.vue'),
   },
   {
-    path: '/rockets',
-    name: 'Rockets',
-    component: () => import('../pages/Rockets.vue'),
-  },
-  {
     path: '/ships',
     name: 'Ships',
     component: () => import('../pages/Ships.vue'),
