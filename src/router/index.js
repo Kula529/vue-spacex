@@ -29,6 +29,21 @@ const routes = [
     name: 'Missions',
     component: () => import('../pages/Missions.vue'),
   },
+  {
+    path: '/payloads',
+    name: 'Payloads',
+    component: () => import('../pages/Payloads.vue'),
+  },
+  {
+    path: '/dragons',
+    name: 'Dragons',
+    component: () => import('../pages/Dragons.vue'),
+  },
+  {
+    path: '/capsules',
+    name: 'Capsules',
+    component: () => import('../pages/Capsules.vue'),
+  },
 ];
 
 const router = new VueRouter({
