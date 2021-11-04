@@ -13,6 +13,12 @@
             <router-link :to="{ name: 'Launches' }" class="text-base font-medium text-white hover:text-indigo-50">
               Recent Launches
             </router-link>
+            <router-link :to="{ name: 'Missions' }" class="text-base font-medium text-white hover:text-indigo-50">
+              Missions
+            </router-link>
+            <router-link :to="{ name: 'Ships' }" class="text-base font-medium text-white hover:text-indigo-50">
+              Ships
+            </router-link>
           </div>
         </div>
       </div>

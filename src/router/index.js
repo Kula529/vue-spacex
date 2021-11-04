@@ -14,6 +14,21 @@ const routes = [
     name: 'Launches',
     component: () => import('../pages/Launches.vue'),
   },
+  {
+    path: '/rockets',
+    name: 'Rockets',
+    component: () => import('../pages/Rockets.vue'),
+  },
+  {
+    path: '/ships',
+    name: 'Ships',
+    component: () => import('../pages/Ships.vue'),
+  },
+  {
+    path: '/missions',
+    name: 'Missions',
+    component: () => import('../pages/Missions.vue'),
+  },
 ];
 
 const router = new VueRouter({
