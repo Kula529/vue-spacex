@@ -1,8 +1,14 @@
 # Vue SpaceX LaunchPad, a database App using SpaceX API - Vue JS and Tailwind CSS ⚡️
 
+![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+
 ## Project Briefing
 
 This uses open API provided by SpaceX which is related to missions they've launched over the years. This displays details related to it through a beautiful user interface and filters provided. This uses Vue-Tailwind UI library in Vue for UI components which are powered by Tailwind CSS.
+
+Tried to convert the app to Vue 3 using Vite but just came to know that the UI library used in this 'vue-tailwind' is no longer maintained and is not supported for Vue 3. In place of this, Headless UI can be used.
 
 Made with ❤️ by **[@apfirebolt](https://github.com/Apfirebolt/)**
 ## Features
